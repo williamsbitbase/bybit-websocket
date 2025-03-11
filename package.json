@@ -1,0 +1,22 @@
+{
+  "name": "external_websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "lru-cache": "^11.0.2",
+    "ws": "^8.18.1"
+  }
+}
