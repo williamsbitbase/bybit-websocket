@@ -4,7 +4,7 @@ const http = require('http');
 const { LRUCache } = require('lru-cache');
 
 // Configuration
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 const BYBIT_WS_URL = 'wss://stream.bybit.com/v5/public/spot';
 const RECONNECT_INTERVAL = 5000;
 const PING_INTERVAL = 20000;
